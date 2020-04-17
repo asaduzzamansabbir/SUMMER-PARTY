@@ -1,0 +1,1373 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=House+Slant:wght@600&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+	background: #fffae9;
+	font-family: sans-serif;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 16px;
+}
+p{
+	font-size: 16px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/**************************************
+	*** header-section css start ***
+**************************************/
+@font-face{
+	font-family: HouseSampler;
+	src: url(fonts/SignPainter HouseSlant Regular.ttf);
+	font-style: normal;
+}
+.header-section{
+	padding: 0px 0px 250px 0px;
+	background: url(../images/first.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light {
+    background-color: transparent!important;
+    padding: 19px 0px;
+}
+.header-section .nav {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 1px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.header-section .navbar-light .navbar-nav .active{
+	margin-right: 100px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.header-section .bars{
+	display: block;
+	margin-top: 0px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #f81d47;
+}
+.header-section .nav-item .active{
+	margin-right: 95px;
+}
+.header-section .banner{
+	padding: 180px 0px 375px 0px;
+	text-align: center;
+}
+.header-section .banner h1{
+	font-size: 81px;
+	line-height: 85px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+}
+.header-section .banner p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+	color: #e75e3e;
+	font-weight: 500;
+}
+.header-section .banner .btn{
+	padding: 6px 35px;
+	background: #fff;
+	color: #e75e3e;
+	text-transform: uppercase;
+	border-radius: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	transition: 1s;
+}
+.header-section .banner .btn:hover{
+	background: #f81d47;
+	color: #fff;
+	border: 1px solid #f81d47;
+}
+/************************************
+	*** header-section css end ***
+************************************/
+
+
+/*******************************
+	*** group-2 css start ***
+*******************************/
+.group-2{
+	padding: 0px 0px 37px 0px;
+	margin-top: -100px;
+}
+.group-2 h1{
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.group-2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #dc254f;
+	font-weight: 600;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.group-2 .responsive{
+	display: none;
+}
+.group-2 .left{
+	padding-left: 35px;
+}
+.group-2 .btn{
+	padding: 10px 70px;
+	background: #df3e5b;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	transition: 1s;
+}
+.group-2 .btn:hover{
+	background: #fff;
+	color: #f81d47;
+}
+/*****************************
+	*** group-2 css end ***
+*****************************/
+
+
+/*******************************
+	*** group-3 css start ***
+*******************************/
+.group-3{
+	padding: 0px 0px;
+	background: url(../images/second.png) center top no-repeat;
+	background-size: cover;
+	margin-top: -220px;
+}
+.group-3 .card {
+    background-color: transparent;
+    border: none;
+    width: 110%;
+    margin: 780px 0px 470px 0px;
+}
+.group-3 h5{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+}
+.group-3 .responsive{
+	display: none;
+}
+.group-3 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #dc254f;
+	font-weight: 600;
+}
+.group-3 .second{
+	margin-top: -5px;
+	margin-bottom: 30px;
+}
+.group-3 .btn{
+	padding: 6px 35px;
+	background: #fff;
+	color: #dc254f;
+	text-transform: uppercase;
+	border-radius: 50px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	border: none;
+	transition: 1s;
+}
+.group-3 .btn:hover{
+	background: #f81d47;
+	color: #fff;
+}
+.group-3-inner{
+	margin: 0px;
+	padding: 0px 0px;
+}
+.group-3 .card-middle{
+	margin-top: 8%;
+}
+/*****************************
+	*** group-3 css end ***
+*****************************/
+
+
+/*******************************
+	*** group-4 css start ***
+*******************************/
+.group-4 {
+    margin-top: -111px;
+    background: url(../images/fourth.png) center top no-repeat;
+    background-size: cover;
+    padding: 0px 0px 410px 0px;
+}
+.group-4 img {
+    width: 100%;
+    margin-top: -66px;
+}
+/*****************************
+	*** group-4 css end ***
+*****************************/
+
+
+/*******************************
+	*** group-5 css start ***
+*******************************/
+.group-5{
+	padding: 0px 0px 100px 0px;
+	margin-top: -330px;
+}
+.group-5 h1{
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.group-5 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	color: #dc254f;
+	font-weight: 600;
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+.group-5.responsive{
+	display: none;
+}
+.group-5 .web{
+	display: block;
+}
+.group-5 .left{
+}
+.group-5 .btn{
+	text-align: center;
+	padding: 10px 70px;
+	background: #df3e5b;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	border: none;
+	transition: 1s;
+}
+.group-5 .btn:hover{
+	background: #fff;
+	color: #f81d47;
+}
+.group-5 .last-group-5{
+	text-align: center;
+	margin-bottom: 22px;
+}
+/*****************************
+	*** group-5 css end ***
+*****************************/
+
+
+/*******************************
+	*** group-6 css start ***
+*******************************/
+.group-6{
+	padding: 50px 0px 0px 0px;
+	background: url(../images/third.png) center top no-repeat;
+	background-size: cover;
+}
+.gruop-6-left{
+	background: url(../images/r.png) center top no-repeat;
+	background-size: cover;
+	padding: 97px 80px;
+}
+.group-6-right{
+
+}
+.group-6 h1{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+.group-6 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 26px;
+	color: #dc254f;
+	font-weight: 600;
+}
+.group-6-col{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.group-6-col-last{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+/*****************************
+	*** group-6 css end ***
+*****************************/
+
+
+/*******************************
+	*** group-7 css start ***
+*******************************/
+.group-7{
+	padding: 630px 0px;
+	background: url(../images/ff.png) center top no-repeat;
+	background-size: cover;
+	margin-top: -30px;
+} 
+/******************************
+	*** group-7 css end ***
+******************************/
+
+
+/****************************************************
+	*** again .last-group-5 for text centering ***
+*****************************************************/
+.last-group-5{
+	text-align: center;
+}
+.last-last-btn{
+	margin-bottom: -250px;
+}
+/************************************
+	*** again group-5 css end ***
+************************************/
+
+
+
+/**************************************
+	*** again group-2 css start ***
+**************************************/
+.group-2-copy{
+	margin-top: -120px;
+}
+.group-2-copy .last-last-btn .btn:hover{
+	background: #fff;
+	color: #f81d47;
+}
+.group-2-copy .left{
+	padding-left: 35px;
+}
+.group-2-copy .responsive{
+	display: none;
+}
+.group-2-copy .web{
+	display: block;
+}
+/************************************
+	*** again group-2 css end ***
+************************************/
+
+
+
+/**************************************
+	*** again group-3 css start ***
+**************************************/
+.group-3-copy{
+	margin-top: -40px;
+	background: url(../images/bottom.png) center top no-repeat;
+	background-size: cover;
+	padding-bottom: 140px;
+}
+.group-3-copy .group-3-inner{
+	width: 110%;
+    margin-top: -200px;
+}
+.group-3-copy .card-middle-copy{
+	margin-top: -300px;
+}
+.group-3-copy p{
+	font-size: 12px;
+}
+.group-2-copy .responsive{
+	display: none;
+}
+.group-2-copy .web{
+	display: block;
+	}
+/************************************
+	*** again group-3 css end ***
+************************************/
+
+
+/***************************************
+	*** footer-section css start ***
+***************************************/
+.footer-section{
+	padding: 0px 0px 60px 0px;
+	margin-top: -150px;
+}
+.footer-section h1{
+	font-size: 30px;
+	line-height: 60px;
+	font-weight: 800;
+	font-family: 'Rancho', cursive;
+	font-style: italic;
+	color: #f81d47;
+	text-transform: uppercase;
+	padding-left: 40px;
+}
+.footer-section p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	color: #dc254f;
+	font-weight: 600;
+	padding-left: 40px;
+}
+.footer-section .first-nav{
+	margin-top: 63px;
+}
+.footer-section .nav-item .active-a{
+	font-size: 23px;
+	font-family: cursive;
+	font-style: italic;
+	padding-top: 0px;
+	padding-right: 25px;
+}
+.footer-section .nav-item .nav-link{
+	color: #f81d47;
+	font-weight: 600;
+	margin: 0px -8px;
+}
+.footer-section .nav-item .nav-link:hover{
+	color: #e75e3e;
+}
+.footer-section i{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #f81d47;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	transition: 1s;
+}
+.footer-section i:hover{
+	background: #fff;
+	color: #f81d47;
+}
+.footer-section .nav-icon{
+	margin-top: 82px;
+	padding-right: 40px;
+}
+/************************************
+	*** footer-section css end ***
+************************************/
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Responsive CSS code start */
+  	body {
+	    background-size: 100%;
+	}
+	.header-section {
+	    background-size: 100%;
+	}
+	.header-section .banner {
+	    padding: 60px 0px 438px 0px;
+	}
+ 	.header-section .banner-inner{
+ 		width: 100%;
+ 	}
+ 	.header-section .banner h1 {
+	    font-size: 53px;
+	    line-height: 57px;
+	}
+ 	.header-section .banner-col {
+	    margin-left: 24%;
+	    padding-left: -31%;
+	    padding: 0% 0%;
+	}
+	.header-section .navbar-light .navbar-nav{
+		margin-top: 20px;
+	}
+	.header-section .navbar-light .navbar-nav .active {
+	    margin-right: 0px;
+	}
+	.header-section .navbar-light .navbar-nav .bars{
+		display: none;
+	}
+	.header-section .nav-item{
+		background: #f81d47;
+		margin: .5px 0px;
+		transition: 1s;
+	}
+	.header-section .nav-item:hover{
+		background: rgb(248,29,71,.2);
+	}
+	.group-2 {
+	    margin-top: -436px;
+	}
+	.group-2 h1 {
+	    margin-bottom: 20px;
+	}
+	.group-2 .left {
+	    padding-left: 0px;
+	}
+	.group-2 p {
+	    font-size: 17px;
+	    line-height: 25px;
+	    margin-bottom: 30px;
+	    margin-left: 10px;
+	}
+	.group-2 .web{
+		display: none;
+	}
+	.group-2 .responsive{
+		display: block;
+	}
+	.group-2 .btn {
+	    padding: 6px 34px;
+	    border-radius: 10px;
+	    font-size: 14px;
+	}
+	.group-3 {
+	    background-size: 100%;
+	    margin-top: -150px;
+	}
+	.group-3 .card {
+	    background-color: transparent;
+	    border: none;
+	    width: 100%;
+	    margin: 440px 0px 562px 0px;
+	}
+	.group-3 img{
+		width: 100%;
+	}
+	.group-3 h5 {
+	    font-size: 18px;
+	    line-height: 0px;
+	}
+	.group-3 p {
+	    font-size: 9px;
+	    line-height: 15px;
+	}
+	.card-body {
+	    padding: 20px 0px 0px 0px;
+	}
+	.group-3 .second {
+	    margin-top: -12px;
+	    margin-bottom: 12px;
+	}
+	.group-3 .btn {
+	    padding: 4px 20px;
+	    font-size: 12px;
+	}
+	.group-3 .responsive{
+		display: block;
+	}
+	.group-3 .web{
+		display: none;
+	}
+	.group-4 {
+	    margin-top: -314px;
+	    padding: 0px 0px 410px 0px;
+	}
+	.group-4 img{
+		margin-top: -33px;
+	}
+	.group-5 {
+	    padding: 0px 0px 50px 0px;
+	}
+	.group-5 h1 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    margin-bottom: 15px;
+	}
+	.group-5 p {
+	    font-size: 17px;
+	    line-height: 25px;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	}
+	.group-5 .responsive{
+		display: block;
+	}
+	.group-5 .web{
+		display: none;
+	}
+	.group-5 .btn {
+	    padding: 6px 35px;
+	    border-radius: 10px;
+	    font-size: 12px;
+	}
+	.gruop-6-left {
+	    padding: 97px 60px;
+	}
+	.group-6 h1 {
+	    font-size: 25px;
+	    line-height: 30px;
+	    margin-bottom: 12px;
+	}
+	.group-6 p {
+	    font-size: 15px;
+	    line-height: 20px;
+	}
+	.group-7 {
+	    padding: 630px 0px;
+	    background: url(../images/ff.png) center top no-repeat;
+	    background-size: 100%;
+	    margin-top: -30px;
+	}
+	.group-2-copy{
+		margin-top: -624px;
+		padding-bottom: 145px;
+	}
+	.group-2-copy .responsive{
+		display: block;
+	}
+	.group-2-copy .web{
+		display: none;
+	}
+	.group-3-copy{
+		margin-top: -140px;
+	}
+	.group-3-copy .card {
+	    margin: 532px 0px 237px 0px;
+	}
+	.group-3-copy .card-middle-copy {
+	    margin-top: -270px;
+	}
+	.group-3-copy .responsive{
+		display: block;
+	}
+	.group-3-copy .web{
+		display: none;
+	}
+	.footer-section{
+		margin-top: -122px;
+	}
+	.footer-section h1 {
+	    font-size: 28px;
+	    line-height: 52px;
+	}
+	.footer-section p {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+	.footer-section .nav-item .nav-link {
+	    color: #f81d47;
+	    font-weight: 600;
+	    margin: -7px -7px;
+	}
+	.footer-section .nav-icon .nav-link{
+		margin: 0px -7px;
+	}
+	.footer-section .nav-icon {
+	    margin-top: 60px;
+	    padding-right: 40px;
+	}
+
+  /* Responsive CSS code end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	/* Responsive CSS code start */
+  	body {
+	    background-size: 100%;
+	}
+	.header-section {
+	    padding: 0px 0px 385px 0px;
+	    background-size: 100%;
+	}
+	.header-section .banner {
+	    padding: 0px 0px 770px 0px;
+	}
+ 	.header-section .banner-inner{
+ 		width: 100%;
+ 	}
+ 	.header-section .banner-col {
+	    margin-left: 0%;
+	    padding-left: -31%;
+	    padding: 0% 0%;
+	}
+	.header-section .navbar-light .navbar-nav{
+		margin-top: 20px;
+	}
+	.header-section .navbar-light .navbar-nav .active {
+	    margin-right: 0px;
+	}
+	.header-section .navbar-light .navbar-nav .bars{
+		display: none;
+	}
+	.header-section .nav-item{
+		background: #f81d47;
+		margin: .5px 0px;
+		transition: 1s;
+	}
+	.header-section .banner h1 {
+	    font-size: 40px;
+	    line-height: 40px;
+	}
+	.header-section .banner p {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.header-section .banner .btn {
+	    padding: 4px 30px;
+	    font-size: 14px;
+	}
+	.header-section .nav-item:hover{
+		background: rgb(248,29,71,.2);
+	}
+	.group-2 {
+	    margin-top: -690px;
+	}
+	.group-2 h1 {
+	    margin-bottom: 10px;
+	}
+	.group-2 .left {
+	    padding-left: 0px;
+	}
+	.group-2 .web{
+		display: none;
+	}
+	.group-2 .responsive{
+		display: block;
+	}
+	.group-2 p {
+	    font-size: 14px;
+	    line-height: 18px;
+	    margin-bottom: 30px;
+	    margin-left: 10px;
+	}
+	.group-2 .btn {
+	    padding: 4px 30px;
+	    border-radius: 10px;
+	    font-size: 14px;
+	}
+	.group-3 {
+	    margin-top: -533px;
+	    padding-bottom: 500px;
+	}
+	.group-3 .card {
+		width: 100%;
+	    background-color: transparent;
+	    border: none;
+	    margin-top: 13px;
+	    margin-bottom: 25px;
+	    margin-left: 10px;
+	    padding: 0% 21%;
+	}
+	.group-3 .card-first{
+		margin-top: 800px;
+	}
+	.group-2 .left {
+	    padding-left: 0px;
+	}
+	.group-3 {
+	    margin-top: -816px;
+	    padding-bottom: 500px;
+	}
+	.group-3 img{
+		width: 100%;
+	}
+	.group-3 h5 {
+	    font-size: 22px;
+	    line-height: 27px;
+	}
+	.group-3 p {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+	.card-body {
+	    padding: 20px 0px 0px 0px;
+	}
+	.group-3 .second {
+	    margin-top: -12px;
+	    margin-bottom: 12px;
+	}
+	.group-3 .responsive{
+		display: block;
+	}
+	.group-3 .card-first {
+	    margin-top: 995px;
+	}
+	.group-3 .web{
+		display: none;
+	}
+	.group-3 .btn {
+	    padding: 4px 20px;
+	    font-size: 12px;
+	}
+	.group-3 .card-middle {
+	    margin-top: 0%;
+	}
+	.group-4 {
+	    margin-top: -200px;
+	    padding: 0px 0px 410px 0px;
+	}
+	.group-4 img{
+		margin-top: 15px;
+	}
+	.group-5 {
+	    padding: 0px 0px 50px 0px;
+	}
+	.group-5 h1 {
+	    font-size: 40px;
+	    line-height: 50px;
+	    margin-bottom: 15px;
+	}
+	.group-5 p {
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	}
+	.group-5 .responsive{
+		display: block;
+	}
+	.group-5 .web{
+		display: none;
+	}
+	.group-5 .btn {
+	    padding: 6px 35px;
+	    border-radius: 10px;
+	    font-size: 12px;
+	}
+	.group-6 h1 {
+	    font-size: 30px;
+	    line-height: 30px;
+	    margin-bottom: 12px;
+	}
+	.group-6 p {
+	    font-size: 16px;
+	    line-height: 20px;
+	}
+	.gruop-6-left {
+	    margin-bottom: 15px;
+	}
+	.group-7 {
+	    padding: 504px 0px;
+	    background: url(../images/ff.png) center top no-repeat;
+	    background-size: 100%;
+	    margin-top: 0px;
+	}
+	.group-2-copy{
+		margin-top: -624px;
+		padding-bottom: 0px;
+	}
+	.group-3-copy{
+		margin-top: -260px;
+	}
+	.group-3-copy .card {
+	    margin: 532px 0px 237px 0px;
+	}
+	.group-3-copy .card-first{
+		margin-top: 1260px;
+	}
+	.group-3-copy .card-middle-copy {
+	    margin-top: -270px;
+	}
+	.group-3-copy .group-3-inner {
+	    width: 110%;
+	    margin-top: -721px;
+	}
+	.footer-section {
+	    padding: 0px 0px 0px 0px;
+	    margin-top: -494px;
+	    text-align: center;
+	}
+	.footer-section .footer-col{
+		margin-bottom: -40px;
+	}
+	.footer-section h1 {
+	    font-size: 32px;
+	    line-height: 52px;
+	}
+	.footer-section p {
+	    font-size: 20px;
+	    line-height: 26px;
+	}
+	.footer-section .nav-item .nav-link {
+	    color: #f81d47;
+	    font-weight: 600;
+	    margin: -7px -7px;
+	}
+	.footer-section .nav-icon .nav-link{
+		margin: 0px -7px;
+	}
+	.footer-section .nav-icon {
+	    margin-top: 60px;
+	    padding-right: 0px;
+	}
+	
+	/* Responsive CSS code end */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Responsive CSS code start */
+  	body {
+	    background-size: 100%;
+	}
+	.header-section {
+	    padding: 0px 0px 0px 0px;
+	    background-size: 150%;
+	}
+	.header-section .banner {
+	    padding: 0px 0px 610px 0px;
+	    margin-top: 20px;
+	}
+ 	.header-section .banner-inner{
+ 		width: 100%;
+ 	}
+ 	.header-section .banner-col {
+	    margin-left: 0%;
+	    padding-left: -31%;
+	    padding: 0% 0%;
+	}
+	.header-section .navbar-light .navbar-nav{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.header-section .navbar-light .navbar-nav .active {
+	    margin-right: 0px;
+	}
+	.header-section .navbar-light .navbar-nav .bars{
+		display: none;
+	}
+	.header-section .nav-item{
+		background: #f81d47;
+		margin: .5px 0px;
+		transition: 1s;
+	}
+	.header-section .banner h1 {
+	    font-size: 25px;
+	    line-height: 25px;
+	}
+	.header-section .banner p {
+	    font-size: 12px;
+	    line-height: 14px;
+	    margin-bottom: 10px;
+	}
+	.header-section .banner .btn {
+	    padding: 2px 20px;
+	    font-size: 12px;
+	}
+	.header-section .nav-item:hover{
+		background: rgb(248,29,71,.2);
+	}
+	.group-2 {
+	    margin-top: -464px;
+	    padding-bottom: 0px;
+	}
+	.group-2 h1 {
+	    margin-bottom: 0px;
+	}
+	.group-2 .web{
+		display: none;
+	}
+	.group-2 .responsive{
+		display: block;
+	}
+	.group-2 .left {
+	    padding-left: 0px;
+	}
+	.group-2 p {
+	    font-size: 16px;
+	    line-height: 21px;
+	    margin-bottom: 30px;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    text-align: justify;
+	}
+	.group-2 .btn {
+	    padding: 4px 30px;
+	    border-radius: 10px;
+	    font-size: 14px;
+	}
+	.group-3 {
+	    margin-top: -717px;
+	    padding-bottom: 500px;
+	}
+	.group-3 .card {
+		width: 100%;
+	    background-color: transparent;
+	    border: none;
+	    margin-top: 13px;
+	    margin-bottom: 25px;
+	    margin-left: 10px;
+	    padding: 0% 10%;
+	    text-align: center;
+	}
+	.group-3 .card-first{
+		margin-top: 979px;
+	}
+	.group-3 img{
+		width: 100%;
+	}
+	.group-3 h5 {
+	    font-size: 25px;
+	    line-height: 25px;
+	}
+	.group-3 .responsive{
+		display: block;
+	}
+	.group-3 .web{
+		display: none;
+	}
+	.group-3 p {
+	    font-size: 16px;
+	    line-height: 20px;
+	    text-align: left;
+	}
+	.card-body {
+	    padding: 20px 0px 0px 0px;
+	}
+	.group-3 .second {
+	    margin-top: -12px;
+	    margin-bottom: 12px;
+	}
+	.group-3 .btn {
+	    padding: 6px 52px;
+	    font-size: 12px;
+	}
+	.group-3 .card-middle {
+	    margin-top: 0%;
+	}
+	.group-4 {
+	    margin-top: -360px;
+	    padding: 0px 0px 410px 0px;
+	}
+	.group-4 img{
+		margin-top: 15px;
+	}
+	.group-5 {
+	    padding: 0px 0px 50px 0px;
+	    text-align: center;  
+	}
+	.group-5 h1 {
+	    font-size: 35px;
+	    line-height: 35px;
+	    margin-bottom: 15px;
+	}
+	.group-5 .responsive{
+		display: block;
+	}
+	.group-5 .web{
+		display: none;
+	}
+	.group-5 p {
+	    font-size: 14px;
+	    line-height: 20px;
+	    padding-left: 20px;
+	    margin-bottom: 20px;
+	    text-align: left;
+	}
+	.group-5 .btn {
+	    padding: 6px 35px;
+	    border-radius: 10px;
+	    font-size: 12px;
+	}
+	.group-6 {
+	    padding: 20px 0px 0px 0px;
+	}
+	.gruop-6-left {
+	    padding: 97px 35px;
+	}
+	.group-6 h1 {
+	    font-size: 20px;
+	    line-height: 20px;
+	    margin-bottom: 12px;
+	}
+	.group-6 p {
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+	.gruop-6-left {
+	    margin-bottom: 15px;
+	}
+	.group-7 {
+	    padding: 504px 0px;
+	    background: url(../images/ff.png) center top no-repeat;
+	    background-size: 100%;
+	    margin-top: 0px;
+	}
+	.group-2-copy{
+		margin-top: -726px;
+		padding-bottom: 0px;
+		text-align: center;
+	}
+	.group-2-copy h1{
+		font-size: 35px;
+	}
+	.group-2-copy .left {
+	    padding-left: 0px;
+	}
+	.group-2-copy p{
+		font-size: 16px;
+		line-height: 18px;
+		text-align: justify-all;
+	}
+	.group-2-copy .responsive{
+		display: block;
+	}
+	.group-2-copy .web{
+		display: none;
+	}
+	.group-3-copy{
+		margin-top: -405px;
+	}
+	.group-3-copy .card {
+		width: 100%;
+	    margin: 532px 0px 237px 0px;
+	}
+	.group-3-copy .card-first{
+		margin-top: 1283px;
+	}
+	.group-3-copy .card-middle-copy {
+	    margin-top: -270px;
+	}
+	.group-3-copy .responsive{
+		display: block;
+	}
+	.group-3-copy .web{
+		display: none;
+	}
+	.group-3-copy .group-3-inner {
+	    width: 110%;
+	    margin-top: -721px;
+	}
+	.footer-section {
+	    padding: 0px 0px 0px 0px;
+	    margin-top: -500px;
+	}
+	.footer-section .footer-col{
+		margin-bottom: -40px;
+	}
+	.footer-section h1 {
+	    font-size: 30px;
+	    line-height: 52px;
+	    margin-left: -15px;
+	}
+	.footer-section p {
+	    font-size: 14px;
+	    line-height: 20px;
+	    margin-left: -15px;
+	}
+	.footer-section .nav-item .nav-link {
+	    color: #f81d47;
+	    font-weight: 600;
+	    margin: -7px -7px;
+	}
+	.footer-section .nav-icon .nav-link{
+		margin: 0px -7px;
+	}
+	.footer-section .nav-icon {
+	    margin-top: 60px;
+	    padding-right: 0px;
+	}
+	
+	/* Responsive CSS code end*/
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* Responsive CSS code start */
+  	.header-section {
+	    padding: 0px 0px 0px 0px;
+	    background-size: 100%;
+	}
+	.header-section .navbar-light .navbar-nav{
+		margin-top: 20px;
+	}
+	.header-section .navbar-light .navbar-nav .active {
+	    margin-right: 0px;
+	}
+	.bars{
+		display: none;
+	}
+	.header-section .nav-item{
+		background: #f81d47;
+		margin: .5px 0px;
+		transition: 1s;
+	}
+	.header-section .nav-item:hover{
+		background: rgb(248,29,71,.2);
+	}
+	.header-section .banner-inner{
+ 		width: 100%;
+ 	}
+	.header-section .banner-col {
+	    margin-left: 24%;
+	    padding-left: -31%;
+	    padding: 0% 0%;
+	}
+	.header-section .banner {
+	    padding: 0px 0px 399px 0px;
+	    margin-top: 122px;
+	}
+	.header-section .banner h1{
+		font-size: 50px;
+		line-height: 53px;
+	}
+	.group-2 p {
+	    font-size: 14px;
+	    line-height: 21px;
+	    margin-bottom: 30px;
+	    margin-left: 10px;
+	}
+	.group-2 .responsive{
+		display: block;
+	}
+	.group-2 .web{
+		display: none;
+	}
+	.group-3 {
+	    background-size: 100%;
+	}
+	.group-3 .card {
+	    background-color: transparent;
+	    border: none;
+	    width: 110%;
+	    margin: 557px 0px 562px 0px;
+	}
+	.group-3 img{
+		width: 70%;
+	}
+	.group-3 h5 {
+	    font-size: 30px;
+	    line-height: 22px;
+	}
+	.group-3 .responsive{
+		display: block;
+	}
+	.group-3 .web{
+		display: none;
+	}
+	.group-3 p {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+	.group-3 .card-middle p{
+		font-size: 13px;
+	}
+	.group-4 {
+		margin-top: -233px;
+	    padding: 0px 0px 410px 0px;
+	}
+	.group-5 p {
+	    font-size: 15px;
+	    line-height: 24px;
+	}
+	.group-5 .responsive{
+		display: block;
+	}
+	.group-5 .web{
+		display: none;
+	}
+	.gruop-6-left {
+	    padding: 97px 30px;
+	}
+	.group-2-copy {
+	    margin-top: -200px;
+	}
+	.group-2-copy p {
+	    font-size: 14px;
+	}
+	.group-2-copy .responsive{
+		display: block;
+	}
+	.group-2-copy .web{
+		display: none;
+	}
+	.group-3-copy {
+	    padding-bottom: 0px;
+	}
+	.group-3-copy .responsive{
+		display: block;
+	}
+	.group-3-copy .web{
+		display: none;
+	}
+	.group-3-copy .card {
+	    margin: 645px 0px 562px 0px;
+	}
+	.footer-section {
+	    margin-top: -230px;
+	}
+	.footer-section h1 {
+	    padding-left: 70px;
+	}
+	.footer-section p {
+	    padding-left: 70px;
+	    font-size: 12px;
+	}
+  /* Responsive CSS code end */
+  
+}
